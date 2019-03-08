@@ -3,5 +3,8 @@ layout: default
 title: Jiaxin Cheng
 ---
 <div class="blurb">
-    <p><img src="my_photo.jpg" alt="Smiley face" align="left">Hi, I'm Jiaxin Cheng! I am a PhD. student of University of Southern California, majoring in Computer Science</p>
+    <p><img src="my_photo.jpg" alt="Smiley face" align="left">Hi, I'm Jiaxin Cheng! I am a phd. student of University of Southern California, majoring in Computer Science</p>
+	  {% for post in site.publication %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
 </div><!-- /.blurb -->
