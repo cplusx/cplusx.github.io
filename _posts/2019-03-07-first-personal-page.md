@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jiaxin, Horrible Cop, Launches Site"
+title: "Build initial personal page"
 date: 2019-03-07
 ---
 
